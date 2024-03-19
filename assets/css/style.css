@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
 .nav-buttons {
-    margin-left: 45%;
+    margin-left: 40%;
 }
 
 * {
@@ -84,6 +84,17 @@ h6 {
     font-weight: 500;
     margin-left: 5px;
     /* margin-right: 5px; */
+
+}
+.navbar ul li  a{
+    font-size: 1.2rem;
+    padding: 0 0.7px;
+    transition: 0.4s ease;
+    font-weight: 500;
+    margin-left: 5px;
+    /* margin-right: 5px; */
+    text-decoration: none;
+    color: #222;
 
 }
 
@@ -676,4 +687,47 @@ color:#fff;
     width: 80px;
     height: 80px;
     margin-right: 10px;
+}
+
+
+/* CheckOut */
+#checkout-form .checkout-small-element{
+    display: inline-block;
+    width: 40%;
+    margin: 20px auto;
+    
+}
+
+#checkout-form .checkout-btn-container{
+    margin: 10px;
+    /* text-align: right; */
+    margin-right: 40px;
+}
+#checkout-form #checkout-btn{
+    color:white;
+    background-color: #fb774b;
+    width:100%;
+}
+
+#checkout-form div label{
+    margin-right: 90%;
+}
+
+/* Contact */
+
+#contact a span {
+    color:#fb774b;
+    text-decoration: none;
+
+}
+
+#contact a  {
+    color:#fb774b;
+    text-decoration: none;
+
+}
+#contact a:hover  {
+    color:#fb774b;
+    text-decoration: none;
+    font-weight: 600;
 }

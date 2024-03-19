@@ -52,45 +52,40 @@
 
 
 
-
-    <!--Login Section-->
-    <section class="my-5 py-5">
-        <div class="container text-center mt-3 pt-5">
-            <h2 class="form-weight-bold">Login</h2>
+    <!--Checkout-->
+    <section class="my-5 py-5 check-out-sec">
+        <div class="container text-center mt-1 pt-4">
+            <h2 class="form-weight-bold">Check Out</h2>
             <hr style="width: 50px;color:white; border-bottom:2px solid #fb774b;" class="mx-auto">
         </div>
-        <div class="mx-auto container">
-            <form id="login-form" action="">
-                <div class="form-group">
+        <div class="mx-auto container text-center">
+            <form id="checkout-form" action="">
+                <div class="form-group checkout-small-element">
+                    <label for="">Name</label>
+                    <input type="text" class="form-control" id="checkout-name" name="name" required>
+                </div>
+                <div class="form-group checkout-small-element">
                     <label for="">Email</label>
-                    <input type="email" class="form-control" id="login-email" name="email" placeholder="Your Email" required>
+                    <input type="email" class="form-control" id="checkout-email" name="email" required>
                 </div>
-                <div class="form-group">
-                    <label for="">PassWord</label>
-                    <input type="password" class="form-control" id="login-password" name="password" placeholder="Your password" required>
+                <div class="form-group checkout-small-element">
+                    <label for="">Phone</label>
+                    <input type="tel" class="form-control" id="checkout-phone" name="phone"  required>
                 </div>
-                <div class="form-group">
-                    <input type="submit" class="btn" id="login-btn" value="Login">
+                <div class="form-group checkout-small-element">
+                    <label for="">City</label>
+                    <input type="text" class="form-control" id="checkout-city" name="city" required>
                 </div>
-                <div class="form-group">
-                    <a href="" id="register-url" class="btn">Don't have an account? Register</a>
+                <div class="form-group checkout-small-element">
+                    <label for="">Address</label>
+                    <input type="text" class="form-control" id="checkout-address" name="address" required>
+                </div>
+                <div class="form-group checkout-small-element">
+                    <input type="submit" class="btn" id="checkout-btn" value="CheckOut">
                 </div>
             </form>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!--footer-->
     <footer class="mt-5 py-5">
         <div class="row container mx-auto pt-5">
@@ -144,10 +139,10 @@
                     <hr>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 mb-4 mx-auto">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a id="instagram" href="#"><i class="fab fa-instagram"></i></a>
-                    <a id="whatsup" href="#"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#"><i class="fab fa-telegram"></i></a>
+                   <a href="#"><i class="fab fa-facebook"></i></a>
+                   <a id="instagram" href="#"><i class="fab fa-instagram"></i></a>
+                   <a id="whatsup" href="#"><i class="fab fa-whatsapp"></i></a>
+                   <a href="#"><i class="fab fa-telegram"></i></a>
                 </div>
             </div>
         </div>
